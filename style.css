@@ -1,7 +1,6 @@
-/*style.css*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
 
+* {background-color: #111531; color: #a2ded0}
+
 h1 {
-    color: red;
 }
