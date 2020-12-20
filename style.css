@@ -90,12 +90,34 @@ nav li {
     opacity: 100;
 }
 article {
+main
+    clear: both; 
+    overflow: auto; 
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px
     clear: both; overflow: auto; width: 100%;
+main
 }
-hgroup {margin-top: 40px}
+
 figure {
-    float: left; width: 200px; height: 200px; padding: 5px; margin: 20px;
+    float: left;
+    width: 200px; 
+    height: 200px; 
+    padding: 5px; 
+    margin: 20px;
 }
+
+.testimonial-card {
+    background-color: #1f273b;
+    border-radius: 30px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+}
+
 
 footer {
     width: 100%;
