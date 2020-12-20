@@ -90,6 +90,7 @@ nav li {
     opacity: 100;
 }
 article {
+main
     clear: both; 
     overflow: auto; 
     width: 100%;
@@ -97,6 +98,8 @@ article {
 
 hgroup {
     margin-top: 40px
+    clear: both; overflow: auto; width: 100%;
+main
 }
 
 figure {
@@ -157,3 +160,66 @@ button {
     margin: 25px;
     margin-top: 0;
 }
+
+#product_main {margin-right: 15%; padding-top: 20%; padding-left: 10%; padding-right:10%; border: 3px solid black; height: 1000px; width: 100%; display:grid; grid-template-columns: 25% 25% 25% 25%; grid-template-rows: 75% 75% 75% 75%; flex: right; text-align: center;}
+
+
+#dropbtn {font-family: 'Roboto', sans-serif;
+    color: #a2ded0; height: 4em; width: 8em;font-size: 1.2em; background-color: #111531;}
+
+
+.dropdown-Content .txt1-hov {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  #product1:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+  #product2:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+  #product3:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+  #product4:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+#dropbtn:hover .dropdown-Content {display: block; }
+
+a:hover {color: purple;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #dropbtn {
+        background-color:#1f273b;
+        color: #a2ded0;
+        font-size: 16px;
+        border: none;
+      }
+
+      
+
