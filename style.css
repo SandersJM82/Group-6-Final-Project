@@ -89,18 +89,21 @@ nav li {
 .dropdown:hover .dropdown-content {
     opacity: 100;
 }
-article {
-main
+article 
+{
     clear: both; 
     overflow: auto; 
-    width: 100%;
+    width: 100%; 
+
 }
 
 hgroup {
-    margin-top: 40px
+    margin-top: 40px;
     clear: both; overflow: auto; width: 100%;
-main
+    position: relative; display: inline;
+
 }
+
 
 figure {
     float: left;
@@ -116,6 +119,9 @@ figure {
     padding: 20px;
     width: 200px;
     margin: 10px;
+    display:inline-block;
+    margin-left: 200px;
+    margin-bottom:100px;
 }
 
 
@@ -201,19 +207,6 @@ button {
 
 a:hover {color: purple;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     #dropbtn {
         background-color:#1f273b;
         color: #a2ded0;
@@ -221,5 +214,4 @@ a:hover {color: purple;}
         border: none;
       }
 
-      
 
