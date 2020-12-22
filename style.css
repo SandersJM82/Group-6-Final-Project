@@ -27,6 +27,8 @@ nav {
     position: relative;
 }
 
+a:hover {color: purple;}
+
 .menu-links {
     margin: 0px;
     display: flex;
@@ -167,51 +169,53 @@ button {
     margin-top: 0;
 }
 
-#product_main {margin-right: 15%; padding-top: 20%; padding-left: 10%; padding-right:10%; border: 3px solid black; height: 1000px; width: 100%; display:grid; grid-template-columns: 25% 25% 25% 25%; grid-template-rows: 75% 75% 75% 75%; flex: right; text-align: center;}
+.product_Menu {border: 2px solid black; display: inline-flex; height: 700px; width:100%; padding-top: 50px;
+}
+.product_Menu a {
+    color: #a2ded0; 
+}
 
+.product_Menu li {
+    list-style: none;
+    margin: none;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    display:flex;
+    position:relative
+}
 
-#dropbtn {font-family: 'Roboto', sans-serif;
-    color: #a2ded0; height: 4em; width: 8em;font-size: 1.2em; background-color: #111531;}
+.dropdownP {height: 25%; width: 50%; margin-left: 50px;}
 
-
-#dropdown-Content  {
-    display: none;
+.dropdown-Content {
+    width: 150%;
+    padding: 25%;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    background-color: #05070C;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 0.72em;
+    text-align: center;
+    left: 0px;
+    top: 50px;
+    border: none;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
 
-  #product1:hover{
-    position: relative;
-    display: inline-block; background-color: black; 
-  }
+.dropdown-Content li {
+    padding:10px; 
+    
+}
 
-  #product2:hover{
-    position: relative;
-    display: inline-block; background-color: black; 
-  }
+.dropdown-Content li:hover {
+    background-color: #1f273b; margin: 20%; padding: 1%;
+}
 
-  #product3:hover{
-    position: relative;
-    display: inline-block; background-color: black; 
-  }
-
-  #product4:hover{
-    position: relative;
-    display: inline-block; background-color: black; 
-  }
-
-/*.dropdown-Content {display: block; }*/
-
-a:hover {color: purple;}
-
-    #dropbtn {
-        background-color:#1f273b;
-        color: #a2ded0;
-        font-size: 16px;
-        border: none;
-      }
-
- 
+.dropdownP:hover .dropdown-Content {
+    opacity: 100;
+}
