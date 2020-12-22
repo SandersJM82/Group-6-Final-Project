@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; text-decoration: none;
 }
 
 body, html {
@@ -169,7 +169,7 @@ button {
     margin-top: 0;
 }
 
-.product_Menu {border: 2px solid black; display: inline-flex; height: 700px; width:100%; padding-top: 50px;
+.product_Menu {border: 2px solid black; display: inline-flex; height: 900px; width:100%; padding-top: 50px; padding: 5% 5% 5% 5%;
 }
 .product_Menu a {
     color: #a2ded0; 
@@ -177,38 +177,46 @@ button {
 
 .product_Menu li {
     list-style: none;
-    margin: none;
+    margin: 20px;
     padding-top: 200px;
     padding-bottom: 200px;
     transition-property: background-color;
     transition-duration: 0.25s;
     transition-timing-function: ease;
-    display:flex;
-    position:relative
+    display: run-in;
+    position:relative;
+    text-decoration: none;
+    
 }
 
-.dropdownP {height: 25%; width: 50%; margin-left: 50px;}
+.dropdownP {height: 50px; width: 20%; margin: 20%; text-justify: center; font-size: 18pt; padding:20px}
 
 .dropdown-Content {
-    width: 150%;
-    padding: 25%;
+    width: 500px;
+    height:300px;
+    margin:50px;
+    padding: 10px;
     position: absolute;
+    display: inline;
+    max-width: 300px;
     background-color: #05070C;
     border-radius: 50px 50px 50px 50px;
-    font-size: 0.72em;
-    text-align: center;
+    font-size: .78em;
+    top: 65%;
+    right: 0px;
     left: 0px;
-    top: 50px;
+    bottom:100px;
     border: none;
     opacity: 0;
     transition-property: opacity;
     transition-duration: 100ms;
     transition-timing-function: ease-in-out;
-    z-index: 2;
+    
+    
 }
 
 .dropdown-Content li {
-    padding:10px; 
+    padding:10px;
     
 }
 
