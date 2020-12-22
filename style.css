@@ -227,3 +227,5 @@ button {
 .dropdownP:hover .dropdown-Content {
     opacity: 100;
 }
+
+img {height: 200px; width: 200px;}
