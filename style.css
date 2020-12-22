@@ -174,7 +174,7 @@ button {
     color: #a2ded0; height: 4em; width: 8em;font-size: 1.2em; background-color: #111531;}
 
 
-.dropdown-Content .txt1-hov {
+#dropdown-Content  {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -203,7 +203,7 @@ button {
     display: inline-block; background-color: black; 
   }
 
-#dropbtn:hover .dropdown-Content {display: block; }
+/*.dropdown-Content {display: block; }*/
 
 a:hover {color: purple;}
 
@@ -214,4 +214,4 @@ a:hover {color: purple;}
         border: none;
       }
 
-
+ 
