@@ -19,7 +19,7 @@ nav {
 }
 
 .logo {
-    margin: 25px 600px 0px 0px;
+    margin: 0px 400px 0px 0px;
     display: flex;
     align-content: flex-start;
     flex-direction: row-reverse;
@@ -229,3 +229,32 @@ button {
 }
 
 img {height: 200px; width: 200px;}
+
+/*.nav-icon {
+    margin: 1em;
+    width: 40px;
+  }
+  
+  .nav-icon:after, 
+  .nav-icon:before, 
+  .nav-icon div {
+    background-color:  #a2ded0;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 7px 0;
+    transition: all .2s ease-in-out;
+  }
+
+  .nav-icon:hover:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+  
+  .nav-icon:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+  
+  .nav-icon:hover div {
+    transform: scale(0);
+  }*/
