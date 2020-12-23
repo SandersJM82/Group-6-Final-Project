@@ -228,7 +228,11 @@ button {
     opacity: 100;
 }
 
-img {height: 200px; width: 200px;}
+.image-home {margin-right: 50px; margin-left: 300px; padding-left: 100px}
+
+#image_Service {margin-left: 50px; padding: 50px; display:inline-block;}
+
+img {height: 200px; width: 200px; }
 
 /*.nav-icon {
     margin: 1em;
