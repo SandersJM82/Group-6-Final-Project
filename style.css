@@ -250,7 +250,6 @@ img {height: 200px; width: 200px; }
     margin: 7px 0;
     transition: all .2s ease-in-out;
   }
-
   .nav-icon:hover:before {
     transform: translateY(12px) rotate(135deg);
   }
